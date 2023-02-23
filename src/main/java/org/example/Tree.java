@@ -4,9 +4,9 @@ public class Tree {
     private int height;
     private int width;
     private String color;
-    private String type;
+    private TreeType type;
 
-    public Tree( String type ) {
+    public Tree( TreeType type ) {
         this.type = type;
     }
 
@@ -22,7 +22,7 @@ public class Tree {
         return color;
     }
 
-    public String getType() {
+    public TreeType getType() {
         return type;
     }
 
